@@ -5,11 +5,13 @@
 			"states": {
 				"default": {
 					"particle_effects": [
-						{
-						  "effect": "test"
-						}
-					  ],
-					"animations": ["new"]
+						
+							{"effect": "smoketrail"},
+							
+							{"effect": "exhaust"}
+						
+					  ]
+					
 				}
 			}
 		}

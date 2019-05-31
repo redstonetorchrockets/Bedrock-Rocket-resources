@@ -45,11 +45,8 @@
 						"loop": true
 					}
 				}
-			},
-			"minecraft:particle_motion_collision": {
-				"coefficient_of_restitution": 1,
-				"expire_on_contact": true
 			}
+			
 		}
 	}
 }
