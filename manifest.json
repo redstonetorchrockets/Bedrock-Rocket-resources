@@ -2,7 +2,7 @@
 {
     "format_version": 1,
     "header": {
-        "name": "Equivalent Exchange 3",
+        "name": "Bedrock Rocket",
         "description": "This addon allows you to fly to space",
         "uuid": "1f65addf-c6cb-4f1c-9414-a40051737e06",
         "version": [0, 0, 1]
