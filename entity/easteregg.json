@@ -18,8 +18,18 @@
 			},
 			"materials": {
 				"default": "entity"
+			},
+			"animations":{
+				"new":"animation.easteregg.new"
+			},
+			"animation_controllers": [
+				{
+					"always": "controller.animation.easteregg.always"
+				}
+			],
+			"particle_effects": {
+				"test": "rtr:smoketrail"
 			}
-			
 		}
 	}
 }
