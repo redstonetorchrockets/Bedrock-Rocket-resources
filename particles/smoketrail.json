@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "x11:test",
+			"identifier": "rtr:smoketrail",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
 				"texture": "textures/particle/campfire_smoke"
@@ -14,7 +14,7 @@
 				"rotation": true
 			},
 			"minecraft:emitter_rate_steady": {
-				"spawn_rate": 30,
+				"spawn_rate": 15,
 				"max_particles": 1000
 			},
 			"minecraft:emitter_lifetime_looping": {
@@ -46,7 +46,10 @@
 					}
 				}
 			},
-			"minecraft:particle_motion_collision": {}
+			"minecraft:particle_motion_collision": {
+				"coefficient_of_restitution": 1,
+				"expire_on_contact": true
+			}
 		}
 	}
 }

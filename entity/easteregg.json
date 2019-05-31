@@ -28,7 +28,7 @@
 				}
 			],
 			"particle_effects": {
-				"test": "rtr:smoketrail"
+				"smoketrail": "rtr:smoketrail"
 			}
 		}
 	}
