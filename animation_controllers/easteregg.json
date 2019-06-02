@@ -6,11 +6,9 @@
 				"default": {
 					"particle_effects": [
 						
-							{"effect": "smoketrail"},
-							
-							{"effect": "exhaust"}
-						
-					  ]
+							{"effect": "smoketrail"}
+							 ],
+					  "animations": ["particles"]
 					
 				}
 			}

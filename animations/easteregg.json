@@ -1,0 +1,14 @@
+  {
+  "format_version": "1.8.0",
+  "animations": {
+      "animations.easteregg.particles":{
+    "particle_effects": {
+        "3.0": [
+          {
+            "effect": "appear"
+          }
+        ]
+      }
+    }
+  }
+}
