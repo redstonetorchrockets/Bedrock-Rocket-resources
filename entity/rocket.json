@@ -2,33 +2,31 @@
 	"format_version": "1.8.0",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "rtr:easteregg",
+			"identifier": "rtr:rocket",
 			"spawn_egg": {
 				"base_color": "#683b3b",
 				"overlay_color": "#f92a2a"
 			},
 			"render_controllers": [
-				"controller.render.easteregg"
+				"controller.render.rocket"
 			],
 			"geometry": {
-				"default": "geometry.easteregg"
+				"default": "geometry.rocket"
 			},
 			"textures": {
-				"default": "textures/entity/easteregg"
+				"default": "textures/entity/rocket"
 			},
 			"materials": {
 				"default": "entity"
-			},
-			"animations":{
-				"new":"animation.easteregg.new"
-			},
-			"particle_effects": {
+            },
+            "particle_effects": {
 				"smoketrail": "rtr:smoketrail"
 				
 			},
+			
 			"animation_controllers": [
 				{
-					"always": "controller.animation.easteregg.always"
+					"always": "controller.animation.rocket.always"
 				}
 			]
 			
@@ -36,3 +34,4 @@
 		}
 	}
 }
+
