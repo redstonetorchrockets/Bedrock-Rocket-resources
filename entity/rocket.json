@@ -7,9 +7,7 @@
 				"base_color": "#683b3b",
 				"overlay_color": "#f92a2a"
 			},
-			"render_controllers": [
-				"controller.render.rocket"
-			],
+			"render_controllers": ["controller.render.rocket"],
 			"geometry": {
 				"default": "geometry.rocket"
 			},
@@ -18,20 +16,16 @@
 			},
 			"materials": {
 				"default": "entity"
-            },
-            "particle_effects": {
-				"smoketrail": "rtr:smoketrail"
-				
 			},
-			
+			"particle_effects": {
+				"smoketrail": "rtr:smoketrail"
+			},
 			"animation_controllers": [
 				{
 					"always": "controller.animation.rocket.always"
 				}
 			]
-			
-			
 		}
 	}
 }
-
+	
