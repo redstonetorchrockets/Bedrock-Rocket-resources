@@ -63,11 +63,11 @@ button:hover {
 }
 
 .logo {
-    width: 150px;
-    height: 150px;
-    background-repeat: round;
+    width: 20%;
+    height: 40%;
+    background-repeat: no-repeat;
     background-size: 100%;
-    margin-left: 300px;
+    margin-left: 40%;
     z-index: 3;
     text-align: center;
     display: flex;
