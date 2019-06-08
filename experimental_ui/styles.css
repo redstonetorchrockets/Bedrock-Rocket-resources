@@ -3,11 +3,6 @@
     src: url(fonts/Minecraft.otf);
 }
 
-@font-face {
-    font-family: 'Minecraft';
-    src: url(fonts/Minecraft.otf);
-}
-
 body {
     font-family: "MinecraftTen";
     color: black;
@@ -68,12 +63,13 @@ button:hover {
 }
 
 .logo {
-    width: 20%;
-    height: 40%;
-    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    background-repeat: round;
     background-size: 100%;
+    margin-left: 300px;
+    z-index: 3;
+    text-align: center;
     display: flex;
     justify-content: center;
-    margin-left: 40%;
-    z-index: 3;
 }
