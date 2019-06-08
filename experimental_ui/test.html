@@ -10,9 +10,10 @@
 <body>
     <div id="_body_" class="screenBox">
         <div class="windowBox" style="background-image: url( &quot;dialog.png&quot;)">
-            <button class="btn-close" id="_close_">x</button>
+            <button class="btn-close" onclick="closeWindow();" id="_close_">x</button>
+            <div class="logo" style="background-image: url( &quot;rtr.png&quot;)"></div>
             <p>This is a addon for Minecraft Bedrock made by RedstoneTorchRockets.</p>
-            <button id="_website_">Website</button>
+            <button onclick="visitWebsite();" id="_website_">Website</button>
         </div>
     </div>
 </body>
@@ -41,10 +42,18 @@
         scriptEngineHandle.triggerEvent("leavePressed");
     });
 
+    function closeWindow() {
+        scriptEngineHandle.triggerEvent("leavePressed");
+    }
+
+    function visitWebsite() {
+        scriptEngineHandle.triggerEvent("visitWebsite");
+    }
+
     let btnClose = document.getElementById("_website_");
     // When the leave button is pressed send a message to the client script
     btnClose.addEventListener("click", function() {
-        window.location.href = "http://rtr.logilutions.de";
+        scriptEngineHandle.triggerEvent("visitWebsite");
     });
 
     // document.getElementById("turn_order_slot_0").style.backgroundImage = "url(\"Blaze_Face.png\")";

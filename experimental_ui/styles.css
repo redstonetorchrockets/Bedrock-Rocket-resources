@@ -66,3 +66,14 @@ button:hover {
     margin-left: 98%;
     margin-top: -33px;
 }
+
+.logo {
+    width: 20%;
+    height: 40%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    z-index: 3;
+}
