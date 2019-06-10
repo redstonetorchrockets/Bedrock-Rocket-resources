@@ -1,5 +1,45 @@
 {
     "resource_pack_name": "vanilla",
     "texture_name": "atlas.items",
-    "texture_data": {}
+    "texture_data": {
+        "redstone_torch_rocket": {
+            "textures": "textures/items/redstone_torch_rocket"
+        },
+        "coke_coal": {
+            "textures": "textures/items/coke_coal"
+        },
+        "control_unit": {
+            "textures": "textures/items/control_unit"
+        },
+        "double_engine": {
+            "textures": "textures/items/double_engine"
+        },
+        "engine": {
+            "textures": "textures/items/engine"
+        },
+        "fuel_tank": {
+            "textures": "textures/items/fuel_tank"
+        },
+        "heat_resistant_plate": {
+            "textures": "textures/items/heat_resistant_plate"
+        },
+        "power_unit": {
+            "textures": "textures/items/power_unit"
+        },
+        "refined_iron": {
+            "textures": "textures/items/refined_iron"
+        },
+        "saturn_v": {
+            "textures": "textures/items/saturn_v"
+        },
+        "steel_block": {
+            "textures": "textures/items/steel_block"
+        },
+        "steel_ingot": {
+            "textures": "textures/items/steel_ingot"
+        },
+        "wireless_controller": {
+            "textures": "textures/items/wireless_controller"
+        }
+    }
 }
