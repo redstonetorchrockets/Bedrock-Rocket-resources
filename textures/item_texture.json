@@ -26,8 +26,8 @@
         "power_unit": {
             "textures": "textures/items/power_unit"
         },
-        "refined_iron": {
-            "textures": "textures/items/refined_iron"
+        "raw_steel": {
+            "textures": "textures/items/raw_steel"
         },
         "saturn_v": {
             "textures": "textures/items/saturn_v"

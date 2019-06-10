@@ -2,11 +2,11 @@
     "format_version": "1.10",
     "minecraft:item": {
         "description": {
-            "identifier": "rtr:refined_iron",
+            "identifier": "rtr:raw_steel",
             "category": "Items"
         },
         "components": {
-            "minecraft:icon": "refined_iron"
+            "minecraft:icon": "raw_steel"
 
         }
     }
