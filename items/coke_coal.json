@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "rtr:coke_coal",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:icon": "coke_coal"
+
+        }
+    }
+}

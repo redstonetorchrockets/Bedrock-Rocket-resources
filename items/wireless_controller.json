@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "rtr:wireless_controller",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:icon": "wireless_controller"
+
+        }
+    }
+}

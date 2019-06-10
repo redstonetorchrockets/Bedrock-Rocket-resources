@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "rtr:fuel_tank",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:icon": "fuel_tank"
+
+        }
+    }
+}

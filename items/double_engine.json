@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "rtr:double_engine",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:icon": "double_engine"
+
+        }
+    }
+}

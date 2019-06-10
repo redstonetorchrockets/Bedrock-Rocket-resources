@@ -5,10 +5,9 @@
             "identifier": "rtr:redstone_torch_rocket",
             "category": "Equipment"
         },
-
         "components": {
             "minecraft:icon": "redstone_torch_rocket"
-           
-        }   
+
+        }
     }
 }
