@@ -1,0 +1,11 @@
+{
+    "format_version": [1, 1, 0],
+    "rtr:tank_block": {
+        "textures": "tank_block",
+        "sound": "stone"
+    },
+    "rtr:steel_block":{
+        "textures": "steel_block",
+        "sound": "stone"
+    }
+}
