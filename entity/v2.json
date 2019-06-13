@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rtr:v2",
+			"spawn_egg": {
+				"base_color": "#683b3b",
+				"overlay_color": "#f92a2a"
+			},
+			"render_controllers": ["controller.render.v2"],
+			"geometry": {
+				"default": "geometry.v2"
+			},
+			"textures": {
+				"default": "textures/entity/v2"
+			},
+			"materials": {
+				"default": "entity"
+			}
+			
+		}
+	}
+}
+	
