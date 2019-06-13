@@ -9,10 +9,8 @@
 
 <body>
     <div id="_body_" class="screenBox">
-        <div class="windowBox" style="background-image: url( &quot;dialog.png&quot;)">
-            <button class="btn-close" onclick="closeWindow();" id="_close_">x</button>
-            <p>Your are looking at a rocket!</p>
-        </div>
+        <button class="btn-close" onclick="closeWindow();" id="_close_">x</button>
+        <p class="infoBox">Your are looking at a rocket!</p>
     </div>
 </body>
 
@@ -41,7 +39,10 @@
     });
 
     function closeWindow() {
-        scriptEngineHandle.triggerEvent("leavePressed");
+        scriptEngineHandle.triggerEvent("leaveRocket");
+        setTimeout(function() {
+            scriptEngineHandle.triggerEvent("readyForRocket");
+        }, 2000);
     }
 
     function visitWebsite() {
