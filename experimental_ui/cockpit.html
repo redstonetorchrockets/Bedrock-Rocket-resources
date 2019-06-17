@@ -9,10 +9,8 @@
 
 <body>
     <div id="_body_" class="screenBox">
-        <div class="windowBox" style="background-image: url( &quot;dialog.png&quot;)">
-            <button class="btn-close" onclick="closeWindow();" id="_close_">x</button>
-            <p>You are sitting in a rocket! How the f*ck amazing is that!!</p>
-        </div>
+        <button class="btn-close" onclick="closeWindow();" id="_close_">x</button>
+        <p class="infoBox">Your are sitting in a rocket!</p>
     </div>
 </body>
 
@@ -26,13 +24,6 @@
 
     engine.trigger("facet:request", ["core.scripting"]);
 
-    // Grab the start button element
-    let startButton = document.getElementById("_start_");
-    // When the start button is pressed send a message to the client script
-    startButton.addEventListener("click", function() {
-        scriptEngineHandle.triggerEvent("startPressed");
-    });
-
     // Grab the leave button element
     let leaveButton = document.getElementById("_close_");
     // When the leave button is pressed send a message to the client script
@@ -41,20 +32,8 @@
     });
 
     function closeWindow() {
-        scriptEngineHandle.triggerEvent("leavePressed");
+        scriptEngineHandle.triggerEvent("leaveRocket");
     }
-
-    function visitWebsite() {
-        scriptEngineHandle.triggerEvent("visitWebsite");
-    }
-
-    let btnClose = document.getElementById("_website_");
-    // When the leave button is pressed send a message to the client script
-    btnClose.addEventListener("click", function() {
-        scriptEngineHandle.triggerEvent("visitWebsite");
-    });
-
-    document.getElementById("icon_rtr").style.backgroundImage = "url(\"rtr_small.png\")";
 </script>
 
 </html>
