@@ -4,9 +4,8 @@
 		"description": {
 			"identifier": "rtr:easteregg",
 			"spawn_egg": {
-				"base_color": "#683b3b",
-				"overlay_color": "#f92a2a"
-			},
+					"texture": "redstone_torch_rocket"
+				},
 			"render_controllers": [
 				"controller.render.easteregg"
 			],
@@ -20,19 +19,19 @@
 				"default": "entity"
 			},
 			"animations":{
-				"new":"animation.easteregg.new"
-			},
-			"particle_effects": {
-				"smoketrail": "rtr:smoketrail"
-				
+				"flight":"animation.easteregg.flight"
+			
 			},
 			"animation_controllers": [
 				{
 					"always": "controller.animation.easteregg.always"
+					
 				}
-			]
-			
-			
+			],
+			"particle_effects": {
+				"smoketrail": "rtr:smoketrail",
+				"teleport": "rtr:teleport"
+			}
 		}
 	}
 }
