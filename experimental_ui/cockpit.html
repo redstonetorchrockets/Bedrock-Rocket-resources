@@ -11,6 +11,7 @@
     <div id="_body_" class="screenBox">
         <button class="btn-close" onclick="closeWindow();" id="_close_">x</button>
         <p class="infoBox">Your are sitting in a rocket!</p>
+        <button class="btnBox" onclick="launchRocket();" id="_launchRocket_">Launch Rocket</button>
     </div>
 </body>
 
@@ -33,6 +34,10 @@
 
     function closeWindow() {
         scriptEngineHandle.triggerEvent("leaveRocket");
+    }
+
+    function launchRocket() {
+        scriptEngineHandle.triggerEvent("launchRocket");
     }
 </script>
 

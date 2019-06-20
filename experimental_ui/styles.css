@@ -88,3 +88,11 @@ button:hover {
     margin-top: 50px;
     left: 30px;
 }
+
+.btnBox {
+    padding: 20px;
+    position: absolute;
+    margin-top: 100px;
+    left: 30px;
+    width: 100px;
+}
